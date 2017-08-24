@@ -1,6 +1,6 @@
 module Onebox
   module Engine
-    class NameOnebox
+    class DevdocOnebox
       include LayoutSupport
       include HTML
 
