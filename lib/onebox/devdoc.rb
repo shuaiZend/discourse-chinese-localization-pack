@@ -10,8 +10,8 @@ module Onebox
         {
           url: @url,
           name: raw.css("h1").inner_text,
-          image: raw.css("#main-image").first["src"],
-          description: raw.css("#postBodyPS").inner_text
+          image: raw.css("logo").first["src"],
+          description: raw.css("content-wrap").first["p"].inner_text
         }
       end
     end
